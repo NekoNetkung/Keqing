@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box{
+    width: 516px;
+    height: 622px;
+    background-color: skyblue;
+    border-radius: 10px 10px;
+}
+
+.line{
+    width: 100%;
+    height: 16px;
+    background-color: slateblue;
+    border-radius: 10px 10px;
+}
+
+.content{
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+}
+
+.content label, input, button {
+    margin-top: 2rem;
+}
+
+.content h1{
+    text-align: center;
+}
+
+.content input{
+    color: purple;
+    
+    height: 1.8rem;
+    border: none;
+    text-align: 1rem;
+    padding: 4px;
+}
+
+.content button{    
+    background-color: slateblue;
+    height: 2.5rem;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.content button:hover{
+    transform: scale(1.1);
+    transition: ease-in-out .3s;
+}
+
+.not-member{
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+}
